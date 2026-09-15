@@ -1,0 +1,143 @@
+/* 1. Reset và Cấu hình chung */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f6f9;
+}
+
+/* 2. Header */
+header {
+    background: linear-gradient(135deg, #0056b3, #0088cc);
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 8px;
+}
+
+header h2 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+/* 3. Navigation Bar */
+nav {
+    background-color: #004085;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li a {
+    display: block;
+    padding: 14px 24px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #002752;
+}
+
+/* 4. Main Content & Sections */
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: #fff;
+    padding: 25px 30px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+section h2 {
+    color: #0056b3;
+    border-bottom: 2px solid #e9ecef;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+/* Kỹ năng (Danh sách) */
+#kynang ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+#kynang ul li {
+    margin-bottom: 8px;
+    font-size: 1.05rem;
+}
+
+/* Liên hệ (Address) */
+address {
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+address a {
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+address a:hover {
+    text-decoration: underline;
+}
+
+/* 5. Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #343a40;
+    color: #bbb;
+    font-size: 0.9rem;
+    margin-top: 40px;
+}
+
+/* Responsive cho thiết bị di động */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li a {
+        text-align: center;
+        padding: 10px;
+    }
+
+    main {
+        margin: 15px auto;
+    }
+}
