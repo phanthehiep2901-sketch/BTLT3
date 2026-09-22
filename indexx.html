@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tèo Quán - Tận hưởng từng phút giây lắng đọng cùng tách cà phê đậm đà. Thực đơn phong phú các loại Cà phê, Trà tươi & Bánh ngọt thủ công.">
+    <title>TÈO QUÁN - Coffee & Bakery</title>
+    <!-- Liên kết đến file CSS riêng -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header" id="home">
+        <div class="header-overlay">
+            <div class="logo-container">
+                <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=150&q=80" alt="Logo Tèo Quán" class="logo-img">
+            </div>
+            <h1 class="brand-title">TÈO QUÁN</h1>
+            <p class="brand-slogan">"Tận hưởng từng phút giây lắng đọng cùng tách cà phê đậm đà"</p>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#home" class="active">Trang chủ</a></li>
+            <li><a href="#menu">Thực đơn</a></li>
+            <li><a href="#promotions">Khuyến mãi</a></li>
+            <li><a href="#contact">Liên hệ</a></li>
+        </ul>
+    </nav>
+
+    <div class="filter-bar" id="menu">
+        <span class="filter-title">THỰC ĐƠN CHỌN LỌC</span>
+        <h2 class="filter-heading">Khám Phá Hương Vị</h2>
+        <div class="filter-buttons">
+            <button class="btn-filter active">Tất Cả Món</button>
+            <button class="btn-filter">Cà Phê</button>
+            <button class="btn-filter">Trà Tươi & Macchiato</button>
+            <button class="btn-filter">Bánh & Tráng Miệng</button>
+        </div>
+    </div>
+
+    <div class="main-container">
+
+        <!-- MAIN CONTENT AREA -->
+        <main class="content-area">
+
+            <!-- CÀ PHÊ SECTION -->
+            <section class="menu-section" id="coffee-section">
+                <h2 class="section-title">Cà Phê Truyền Thống & Pha Máy</h2>
+                <div class="card-grid">
+
+                    <article class="food-card">
+                        <span class="badge best-seller">BEST SELLER</span>
+                        <div class="card-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=500&q=80" alt="Cà Phê Muối Tèo">
+                        </div>
+                        <h3 class="food-title">Cà Phê Muối Tèo</h3>
+                        <p class="food-desc">Sự kết hợp hoàn hảo giữa vị cà phê phin đậm đà và lớp kem muối béo ngậy thơm ngon.</p>
+                        <div class="card-footer-item">
+                            <span class="food-price">39.000đ</span>
+                            <button class="btn-order">+ Đặt món</button>
+                        </div>
+                    </article>
+
+                    <article class="food-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1534778101976-62847782c213?w=500&q=80" alt="Bạc Xỉu Espresso">
+                        </div>
+                        <h3 class="food-title">Bạc Xỉu Espresso</h3>
+                        <p class="food-desc">Nhiều sữa đặc ngọt dịu hòa quyện cùng shot Espresso nguyên chất đậm vị.</p>
+                        <div class="card-footer-item">
+                            <span class="food-price">35.000đ</span>
+                            <button class="btn-order">+ Đặt món</button>
+                        </div>
+                    </article>
+
+                    <article class="food-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=500&q=80" alt="Latte Hạt Dẻ Nóng">
+                        </div>
+                        <h3 class="food-title">Latte Hạt Dẻ Nóng</h3>
+                        <p class="food-desc">Sữa tươi đánh nóng mềm mịn ngây ngất hương syrup hạt dẻ nướng và cà phê.</p>
+                        <div class="card-footer-item">
+                            <span class="food-price">45.000đ</span>
+                            <button class="btn-order">+ Đặt món</button>
+                        </div>
+                    </article>
+
+                    <article class="food-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=500&q=80" alt="Cold Brew Cam Sả">
+                        </div>
+                        <h3 class="food-title">Cold Brew Cam Sả</h3>
+                        <p class="food-desc">Cà phê ủ lạnh 16 tiếng kết hợp nước cam tươi thanh mát và hương sả sảng khoái.</p>
+                        <div class="card-footer-item">
+                            <span class="food-price">48.000đ</span>
+                            <button class="btn-order">+ Đặt món</button>
+                        </div>
+                    </article>
+
+                    <article class="food-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1585238342024-78d387f4a707?w=500&q=80" alt="Cà Phê Trứng Béo Dẻo">
+                        </div>
+                        <h3 class="food-title">Cà Phê Trứng Béo Dẻo</h3>
+                        <p class="food-desc">Lớp kem trứng đánh bông mịn màng không tanh, hòa quyện phin đậm đà.</p>
+                        <div class="card-footer-item">
+                            <span class="food-price">42.000đ</span>
+                            <button class="btn-order">+ Đặt món</button>
+                        </div>
+                    </article>
+
+                    <article class="food-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1517256064527-09c73fc73e38?w=500&q=80" alt="Americano Mật Ong">
+                        </div>
+                        <h3 class="food-title">Americano Mật Ong</h3>
+                        <p class="food-desc">Sự kết hợp đơn giản nhẹ nhàng giữa Espresso đậm đà và chút ngọt thanh dịu.</p>
+                        <div class="card-footer-item">
+                            <span class="food-price">32.000đ</span>
+                            <button class="btn-order">+ Đặt món</button>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+
+            <!-- TRÀ SECTION -->
+            <section class="menu-section" id="tea-section">
+                <h2 class="section-title">Trà Tươi & Macchiato Thanh Nhã</h2>
+                <div class="card-grid">
+
+                    <article class="food-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=500&q=80" alt="Trà Ô Long Dâu Tằm">
+                        </div>
+                        <h3 class="food-title">Trà Ô Long Dâu Tằm</h3>
+                        <p class="food-desc">Trà ô long thơm ngát kết hợp dâu tằm ngâm đường phèn chua ngọt dễ chịu.</p>
+                        <div class="card-footer-item">
+                            <span class="food-price">42.000đ</span>
+                            <button class="btn-order">+ Đặt món</button>
+                        </div>
+                    </article>
+
+                    <article class="food-card">
+                        <span class="badge hot-tag">HOT</span>
+                        <div class="card-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=500&q=80" alt="Trà Sen Macchiato">
+                        </div>
+                        <h3 class="food-title">Trà Sen Macchiato</h3>
+                        <p class="food-desc">Trà sen Tây Hồ thơm dịu kết hợp lớp váng sữa Macchiato béo mịn thơm phức.</p>
+                        <div class="card-footer-item">
+                            <span class="food-price">45.000đ</span>
+                            <button class="btn-order">+ Đặt món</button>
+                        </div>
+                    </article>
+
+                    <article class="food-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1597481499750-3e6b22637e12?w=500&q=80" alt="Trà Đào Cam Sả">
+                        </div>
+                        <h3 class="food-title">Trà Đào Cam Sả</h3>
+                        <p class="food-desc">Vị trà đen đậm đà kèm miếng đào giòn ngọt và hương thơm thanh mát.</p>
+                        <div class="card-footer-item">
+                            <span class="food-price">38.000đ</span>
+                            <button class="btn-order">+ Đặt món</button>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+
+            <!-- BÁNH SECTION -->
+            <section class="menu-section" id="bakery-section">
+                <h2 class="section-title">Bánh Ngọt & Tráng Miệng Thủ Công</h2>
+                <div class="card-grid">
+
+                    <article class="food-card">
+                        <span class="badge best-seller">BEST SELLER</span>
+                        <div class="card-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=500&q=80" alt="Tiramisu Cacao Ý">
+                        </div>
+                        <h3 class="food-title">Tiramisu Cacao Ý</h3>
+                        <p class="food-desc">Bánh mềm mịn, đậm đà hương rượu rum nhẹ, cà phê espresso và phủ bột cacao.</p>
+                        <div class="card-footer-item">
+                            <span class="food-price">49.000đ</span>
+                            <button class="btn-order">+ Đặt món</button>
+                        </div>
+                    </article>
+
+                    <article class="food-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=500&q=80" alt="Croissant Bơ Tươi">
+                        </div>
+                        <h3 class="food-title">Croissant Bơ Tươi</h3>
+                        <p class="food-desc">Bánh sừng bò nướng nóng hổi, vỏ ngoài giòn xốp nhiều lớp, thơm lừng bơ Pháp.</p>
+                        <div class="card-footer-item">
+                            <span class="food-price">32.000đ</span>
+                            <button class="btn-order">+ Đặt món</button>
+                        </div>
+                    </article>
+
+                    <article class="food-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=500&q=80" alt="Cheesecake Chanh Dây">
+                        </div>
+                        <h3 class="food-title">Cheesecake Chanh Dây</h3>
+                        <p class="food-desc">Vị phô mai béo ngậy cân bằng hoàn hảo cùng sốt chanh dây chua thanh mát.</p>
+                        <div class="card-footer-item">
+                            <span class="food-price">45.000đ</span>
+                            <button class="btn-order">+ Đặt món</button>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+
+        </main>
+
+        <aside class="sidebar-aside" id="promotions">
+
+            <div class="aside-widget hot-menu-widget">
+                <span class="widget-sub">★ WEEKLY SPECIALS ★</span>
+                <h3 class="widget-title">Món Hot Trong Tuần</h3>
+                <p class="widget-desc">Được thực khách yêu thích nhiều nhất</p>
+
+                <ul class="hot-list">
+                    <li class="hot-item">
+                        <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=100&q=80" alt="Cà Phê Muối Tèo" class="hot-thumb">
+                        <div class="hot-info">
+                            <h4>Cà Phê Muối Tèo</h4>
+                            <span class="hot-desc-text">Định hình phong cách đậm đà</span>
+                            <span class="hot-price">39.000đ</span>
+                        </div>
+                        <button class="btn-mini-add">+</button>
+                    </li>
+
+                    <li class="hot-item">
+                        <img src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=100&q=80" alt="Tiramisu Cacao Ý" class="hot-thumb">
+                        <div class="hot-info">
+                            <h4>Tiramisu Cacao Ý</h4>
+                            <span class="hot-desc-text">Bánh bán chạy nhất ngày</span>
+                            <span class="hot-price">49.000đ</span>
+                        </div>
+                        <button class="btn-mini-add">+</button>
+                    </li>
+
+                    <li class="hot-item">
+                        <img src="https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=100&q=80" alt="Trà Sen Macchiato" class="hot-thumb">
+                        <div class="hot-info">
+                            <h4>Trà Sen Macchiato</h4>
+                            <span class="hot-desc-text">Thanh mát thơm vị trà thanh</span>
+                            <span class="hot-price">45.000đ</span>
+                        </div>
+                        <button class="btn-mini-add">+</button>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="aside-widget promo-widget">
+                <div class="promo-icon">🎁</div>
+                <h3 class="promo-title">Ưu Đãi Giờ Vàng</h3>
+                <p class="promo-content">Giảm 15% cho tất cả bánh ngọt khi gọi kèm Cà Phê từ 14:00 - 17:00 mỗi ngày.</p>
+            </div>
+
+        </aside>
+
+    </div>
+
+    <footer class="site-footer" id="contact">
+        <div class="footer-container">
+
+            <div class="footer-col">
+                <h3 class="footer-heading">⏰ GIỜ MỞ CỬA</h3>
+                <ul class="footer-list">
+                    <li><span>Thứ 2 - Thứ 6:</span> <strong>07:00 - 22:30</strong></li>
+                    <li><span>Thứ 7 - Chủ Nhật:</span> <strong>07:00 - 23:00</strong></li>
+                </ul>
+                <p class="footer-note">* Nhận order món cuối cùng trước giờ đóng cửa 30 phút.</p>
+            </div>
+
+            <div class="footer-col">
+                <h3 class="footer-heading">📍 THÔNG TIN LIÊN HỆ</h3>
+                <address class="footer-address">
+                    <p>📍 34/15/21 Võ Văn Ngân, Khu phố 1, Phường Trường Thọ, Thủ Đức</p>
+                    <p>📞 Hotline đặt bàn: <strong>0387931473</strong></p>
+                    <p>✉️ Email: contact@teoquan.com</p>
+                </address>
+            </div>
+
+            <div class="footer-col">
+                <h3 class="footer-heading">🔗 KẾT NỐI VỚI CHÚNG TÔI</h3>
+                <p class="social-desc">Theo dõi Tèo Quán trên các mạng xã hội để cập nhật menu mùa mới và các ưu đãi hấp dẫn hàng tuần!</p>
+                <div class="social-links">
+                    <a href="#" class="social-btn">f</a>
+                    <a href="#" class="social-btn">📷</a>
+                    <a href="#" class="social-btn">🎵</a>
+                    <a href="#" class="social-btn">Zalo</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>Copyright © 2026 <strong>Tèo Quán Coffee</strong>. All rights reserved. Designed with warm & minimal aesthetics.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
